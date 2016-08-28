@@ -1,12 +1,11 @@
 import { combineReducers } from "redux";
 import dancers from "./dancers";
-//import movesFilter from "./movesFilter";
+import numberMovesFilter from "./numberMovesFilter";
 
 //we can omit the value thanks to the ES6 shorthand notation since the key is named like the variable
 const dancerApp = combineReducers({
 	dancers
-	// ,
-	// movesFilter
+	numberMovesFilter
 });
 
 export default dancerApp;

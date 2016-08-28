@@ -28,16 +28,16 @@ export const decreaseMoves = (id) => {
 	}
 };
 
-export const setVisibiltyFilter = (filter) => {
+export const setNumberFilterCondition = (condition) => {
 	return {
-		type: 'SET_VISIBILITY_FILTER',
-		filter
+		type: 'SET_NUMBERMOVES_FILTER_CONDITION',
+		condition
 	};
 };
 
-export const setNumberMoves = (numberMoves) => {
+export const setFilterNumberMoves = (number) => {
 	return {
-		type: 'SET_NUMBER_MOVES',
-		numberMoves
+		type: 'SET_NUMBERMOVES_FILTER_NUMBER',
+		number
 	};
 };
